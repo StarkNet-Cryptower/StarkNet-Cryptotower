@@ -71,6 +71,8 @@ Money in the Bank = αh(h + 1) / 2
 ```
 the same formula (1).
 
+![Crytower Interface](https://raw.githubusercontent.com/StarkNet-Cryptower/StarkNet-Cryptower/main/assets/interface-02.png)
+
 ## About strategies and tools
 
 The single most important thing in this game is to buy low. That is, when height of some tower is low, i.e. significantly lower than average, it is good for making profit to add block to this tower. In such a case, mathematical expectation of profit is positive.
