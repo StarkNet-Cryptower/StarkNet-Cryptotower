@@ -22,6 +22,8 @@ In CT game players collectively build and destroy towers from blocks. Each tower
 
 A player can make a move, which we call an actions, at any moment of time. There are only two kinds of elementary actions, namely, the first is adding one block, and the second is removing one block. Players make these actions by placing corresponding orders. To play in CT game all players need to have some amount of money, which they keep in their wallets. To keep records every player has a portfolio, that contains list of numbers of blocks in each tower, belonging to the player.
 
+![Banner](https://raw.githubusercontent.com/StarkNet-Cryptower/StarkNet-Cryptower/main/assets/game-goals.png)
+
 When a player adds one block to tower T(α) of height h the following events happen: height of the tower increases by one, system subtracts from player’s wallet amount of money α(h+1) and adds this number to the bank. System also makes record in player’s portfolio, adding one block of tower T to the number of blocks he has in that tower. When a player removes one block from a tower of height h, height of the tower decreases by one, amount αh is subtracted from the bank and added to the wallet. System also makes record in players portfolio: subtracting 1 block from the number of blocks that the player has in tower Tα.
 
 ![Crytower Interface](https://raw.githubusercontent.com/StarkNet-Cryptower/StarkNet-Cryptower/main/assets/interface-01.png)
